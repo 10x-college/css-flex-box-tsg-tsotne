@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard Layout</title>
+  <link rel="stylesheet" href="./css/st.css" />
+</head>
+<body>
+
+  <!-- Page background -->
+  <div class="page">
+
+    <!-- One big dashboard container (the main background from the photo) -->
+    <div class="dashboard">
+
+      <!-- LEFT: Vertical Navigation -->
+      <aside class="sidebar">
+        <button class="burger" aria-label="Menu">☰</button>
+
+        <nav class="nav">
+          <a class="navItem active" href="#" aria-label="Home">
+            <span class="navIcon">⌂</span>
+          </a>
+
+          <a class="navItem" href="#" aria-label="Layers">
+            <span class="navIcon">▦</span>
+          </a>
+
+          <a class="navItem" href="#" aria-label="Wallet">
+            <span class="navIcon">▭</span>
+          </a>
+
+          <a class="navItem" href="#" aria-label="Time">
+            <span class="navIcon">◷</span>
+          </a>
+
+          <a class="navItem" href="#" aria-label="Calendar">
+            <span class="navIcon">▣</span>
+          </a>
+        </nav>
+      </aside>
+
+      <!-- RIGHT: Main content area -->
+      <main class="main">
+
+        <!-- Top header row -->
+        <header class="topbar">
+          <div class="topbarLeft">
+            <div class="topTitle">Dashboard da @say.valente</div>
+          </div>
+        </header>
+
+        <!-- Content layout: left grid + right column -->
+        <section class="layout">
+
+          <!-- LEFT GRID (cards placeholders) -->
+          <div class="grid">
+
+            <!-- top row small cards -->
+            <div class="card small"></div>
+            <div class="card small"></div>
+            <div class="card small"></div>
+
+            <!-- big wide card -->
+            <div class="card wide"></div>
+
+            <!-- bottom row medium cards -->
+            <div class="card medium"></div>
+            <div class="card medium"></div>
+
+          </div>
+
+          <!-- RIGHT COLUMN (decor + tall card) -->
+          <aside class="rightCol">
+
+            <!-- Decorative stacked cards (top right) -->
+            <div class="decor">
+              <div class="decorCard back gold"></div>
+              <div class="decorCard back teal"></div>
+              <div class="decorCard front purple"></div>
+            </div>
+
+            <!-- Tall placeholder card -->
+            <div class="card tall"></div>
+
+          </aside>
+
+        </section>
+      </main>
+
+    </div>
+  </div>
+
+</body>
+</html>
